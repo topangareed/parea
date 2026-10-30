@@ -10,8 +10,9 @@ An immersive, architecture-forward scrolling site for Paréa Zion — a landscap
 hotel and retreat center on 240 acres beside Zion National Park, designed by
 Studio Andrew Trotter. Hand-written HTML/CSS/JS, no build step.
 
-Sections: hero · the meaning of *paréa* · the place · the land · architecture ·
-the bathhouse · stays · gallery · join the list · contact · footer.
+A short, image-led teaser. Sections: film hero · the meaning of *paréa* ·
+renders and film photographs (architecture, wellness, restaurant & lounge) ·
+join the list · footer.
 
 ## Design
 
