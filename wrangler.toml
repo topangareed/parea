@@ -1,9 +1,14 @@
 name = "parea"
-pages_build_output_dir = "."
+main = "worker.js"
 compatibility_date = "2026-06-15"
 
-# Reuses the same D1 newsletter database as the original site.
-[[d1_databases]]
-binding = "DB"
-database_name = "pareazion-newsletter"
-database_id = "278eee81-986d-4eb4-adf1-bf23f0506af4"
+# The site is served as static files from the repo root.
+# Files that should not be public are listed in .assetsignore
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+# Newsletter database: not set up in this Cloudflare account yet.
+# To turn it on, create a D1 database named pareazion-newsletter,
+# then add its binding here with the name DB.
